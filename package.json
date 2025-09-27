@@ -1,0 +1,11 @@
+{
+  "name": "biomtake-healthcare-system",
+  "version": "1.0.0",
+  "description": "Blockchain-based Healthcare System",
+  "scripts": {
+    "setup": "./scripts/setup.sh",
+    "deploy": "./scripts/deploy-chaincode.sh",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start"
+  }
+}

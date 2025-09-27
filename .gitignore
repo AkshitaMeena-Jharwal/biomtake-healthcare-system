@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+*/node_modules/
+**/vendor/
+*.sum
+*.tar.gz
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Fabric
+fabric-samples/
+wallet/
