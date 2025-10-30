@@ -1,7 +1,6 @@
 # BioMTAKE - Blockchain Healthcare System
 
 A secure healthcare management system built with Hyperledger Fabric and React.js.
-Project is live at : http://localhost:3000/
 ## Features
 - 🔐 JWT Authentication with roles (Admin, Doctor, Patient)
 - ⛓️ Hyperledger Fabric Blockchain
