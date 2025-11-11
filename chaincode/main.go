@@ -10,7 +10,7 @@ import (
 )
 
 type SmartContract struct {
-    contractapi.Contract
+    contractapi.Contract // It is the base struct provided by Hyperledger Fabric's Go SDK that your smart contract must embed to become a valid chaincode.
 }
 
 const encryptionKey = "bioMTAKE_2024_encryption_key_32bytes!"
@@ -129,7 +129,7 @@ func (s *SmartContract) RegisterUser(
         IsActive:  true,
     }
 
-    userJSON, err := json.Marshal(user)
+    userJSON, err := json.Marshal(user) //Go function that converts a Go data structure (struct, map, slice, etc.) into a JSON string (byte array). It's the process of serialization.
     if err != nil {
         return err
     }
